@@ -8,8 +8,8 @@ temp_log.csvファイルは以下の内容になります。
 使用方法は次の通りです。
 
 # 使用の流れ
-## 1. 任意のディレクトリに置いた後、main.py14行目log/temp_log.csvのパスを変更
-main.pyの14行目を
+## 1. 任意のディレクトリに置いた後、main.py31行目log/temp_log.csvのパスを変更
+main.pyの31行目を
 ```py
 with open('[main.pyがあるディレクトリの絶対パス]/log/temp_log.csv', 'a') as f:
 ```
