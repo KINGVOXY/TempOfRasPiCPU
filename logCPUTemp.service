@@ -1,0 +1,10 @@
+[Unit]
+Description=Log CPU temperature
+
+[Service]
+ExecStart=[pythonのパス] [main.pyのパス]
+Restart=always
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
